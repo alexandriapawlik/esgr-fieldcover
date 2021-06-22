@@ -1,7 +1,7 @@
 # ESGR Field Cover data (Art Cooper data rescue)
 
 
-plots 1-7 combined into 3 extracted tables  
+plots 1-4,6,7 combined into 3 extracted tables  
 - trees/shrubs DBH  
 	- subplots 1-9
 	- alive/dead
