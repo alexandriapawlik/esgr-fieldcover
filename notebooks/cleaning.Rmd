@@ -1,7 +1,60 @@
 ---
 title: "Art Cooper Data Cleaning"
 author: Alexandria Pawlik (apawlik@umich.edu)
+link: https://github.com/alexandriapawlik/esgr-fieldcover
 ---
 
 
+Packages and file paths
+```{r}
+library(dplyr)
+library(dataMaid)
+library(tidyverse)
+
+dbh_in <- "../raw/Extracted tables - Tree_Shrub DBH.csv"
+sapling_in <- "../raw/Extracted tables - Tree_Shrub Reproduction.csv"
+field_cover_in <- "../raw/Extracted tables - Field Cover.csv"
+plots_in <- "../raw/Extracted tables - Plot Summary.csv"
+
+dbh_out <- "../output/tree_shrub_dbh.csv"
+sapling_out <- "../output/tree_shrub_reproduction.csv"
+field_cover_out <- "../output/field_cover.csv"
+plots_out <- "../output/plot_summary.csv"
+```
+
+
+Import data
+```{r}
+dbh <- read_csv(dbh_in)
+sap <- read_csv(sapling_in)
+cover <- read_csv(field_cover_in)
+plots <- read_csv(plots_in)
+```
+
+
+Rename columns
+```{r}
+
+```
+
+
+Convert wide to long
+```{r}
+
+```
+
+
+Remove empty rows?
+```{r}
+
+```
+
+
+Export
+```{r}
+write.csv(dbh, file = dbh_out, eol = "\r", row.names = FALSE)
+write.csv(sap, file = sapling_out, eol = "\r", row.names = FALSE)
+write.csv(cover, file = field_cover_out, eol = "\r", row.names = FALSE)
+write.csv(plots, file = plots_out, eol = "\r", row.names = FALSE)
+```
 
