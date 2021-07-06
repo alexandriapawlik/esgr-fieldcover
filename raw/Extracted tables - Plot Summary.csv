@@ -1,19 +1,19 @@
-Date of Measurement,Slope/Plot #,Direction Facing,Approx Latitude N,Approx Longitude W,Slope Percent,Topographic Position,Compass Bearing
-8/27/1957,1,N,42.4608,-84.0088,53,Side of esker,N 16 W
-8/26/1957,2,S,42.4606,-84.0090,43,Side of esker,S 16 E
-8/26/1957,3,S,42.4607,-83.9993,39,Side of esker,S 15 W
-8/30/1957,4,S,42.4608,-84.0007,46,Side of esker,S 4 W
-8/29/1957,6,N,42.4622,-84.0046,36,Side of kettle,N 2 E
-8/29/1957,7,S,42.4627,-84.0046,39,Side of kettle,S 7 W
-8/31/1957,8,N,42.4587,-84.0093,60,Side of kettle,N 18 E
-8/30/1957,9,S,42.4610,-84.0015,54,Side of esker,S 19 W
-8/31/1957,10,N,42.4581,-84.0104,54,Side of kettle,N 10 E
-8/29/1957,11,N,42.4630,-84.0146,50,Side of out-wash fan,N 4 E
-8/27/1957,12,S,42.4605,-84.0085,50,Side of esker,S 14 E
-8/28/1957,13,N,42.4605,-84.0073,40,Side of esker,N 10 W
-8/30/1957,14,S,42.4626,-84.0067,41,Side of kettle,S 15 W
-8/29/1957,15,N,42.4646,-84.0114,51,Side of out-wash fan,N 2 E
-8/28/1957,16,N,42.4578,-84.0108,52,Side of kettle,N 18 W
-8/28/1957,17,S,42.4613,-84.0025,31,Side of esker,S 20 W
-9/4/1957,18,E,,,,,
-9/7/1957,19,W,,,,,
+Date of Measurement,Slope/Plot #,Direction Facing,Protected or Open,Approx Latitude N,Approx Longitude W,Slope Percent,Topographic Position,Compass Bearing
+8/27/1957,1,N,p,42.4608,-84.0088,53,Side of esker,N 16 W
+8/26/1957,2,S,o,42.4606,-84.0090,43,Side of esker,S 16 E
+8/26/1957,3,S,o,42.4607,-83.9993,39,Side of esker,S 15 W
+8/30/1957,4,S,o,42.4608,-84.0007,46,Side of esker,S 4 W
+8/29/1957,6,N,p,42.4622,-84.0046,36,Side of kettle,N 2 E
+8/29/1957,7,S,p,42.4627,-84.0046,39,Side of kettle,S 7 W
+8/31/1957,8,N,o,42.4587,-84.0093,60,Side of kettle,N 18 E
+8/30/1957,9,S,o,42.4610,-84.0015,54,Side of esker,S 19 W
+8/31/1957,10,N,p,42.4581,-84.0104,54,Side of kettle,N 10 E
+8/29/1957,11,N,o,42.4630,-84.0146,50,Side of out-wash fan,N 4 E
+8/27/1957,12,S,o,42.4605,-84.0085,50,Side of esker,S 14 E
+8/28/1957,13,N,o,42.4605,-84.0073,40,Side of esker,N 10 W
+8/30/1957,14,S,p,42.4626,-84.0067,41,Side of kettle,S 15 W
+8/29/1957,15,N,o,42.4646,-84.0114,51,Side of out-wash fan,N 2 E
+8/28/1957,16,N,p,42.4578,-84.0108,52,Side of kettle,N 18 W
+8/28/1957,17,S,o,42.4613,-84.0025,31,Side of esker,S 20 W
+9/4/1957,18,E,,,,,,
+9/7/1957,19,W,,,,,,

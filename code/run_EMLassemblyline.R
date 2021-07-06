@@ -1,0 +1,84 @@
+# This script executes an EMLassemblyline workflow.
+
+# Initialize workspace --------------------------------------------------------
+
+# Update EMLassemblyline and load
+
+# remotes::install_github("EDIorg/EMLassemblyline")
+library(EMLassemblyline)
+
+# Define paths for your metadata templates, data, and EML
+
+path_templates <- "~/apawlik/esgr-fieldcover/metadata/templates"
+path_data <- "~/apawlik/esgr-fieldcover/output"
+path_eml <- "~/apawlik/esgr-fieldcover/output"
+
+# Create metadata templates ---------------------------------------------------
+
+# Below is a list of boiler plate function calls for creating metadata templates.
+# They are meant to be a reminder and save you a little time. Remove the 
+# functions and arguments you don't need AND ... don't forget to read the docs! 
+# E.g. ?template_core_metadata
+
+# Create core templates (required for all data packages)
+
+EMLassemblyline::template_core_metadata(
+  path = path_templates,
+  license = "CCBY",
+  write.file = TRUE)
+
+# Create table attributes template (required when data tables are present)
+
+EMLassemblyline::template_table_attributes(
+  path = path_templates,
+  data.path = path_data,
+  data.table = c("tree_shrub_dbh.csv", "tree_shrub_reproduction.csv", "field_cover.csv", "plot_summary.csv"))
+
+# Create categorical variables template (required when attributes templates
+# contains variables with a "categorical" class)
+
+EMLassemblyline::template_categorical_variables(
+  path = path_templates, 
+  data.path = path_data)
+
+
+# Create taxonomic coverage template (Not-required. Use this to report 
+# taxonomic entities in the metadata)
+
+# remotes::install_github("EDIorg/taxonomyCleanr")
+# library(taxonomyCleanr)
+# 
+# taxonomyCleanr::view_taxa_authorities()
+# 
+# EMLassemblyline::template_taxonomic_coverage(
+#   path = path_templates, 
+#   data.path = path_data,
+#   taxa.table = "",
+#   taxa.col = "",
+#   taxa.name.type = "",
+#   taxa.authority = 3)
+
+# Make EML from metadata templates --------------------------------------------
+
+# Once all your metadata templates are complete call this function to create 
+# the EML.
+
+Pid <- "edi.832.2"
+Sid <- "edi.218.1"
+
+EMLassemblyline::make_eml(
+  path = path_templates,
+  data.path = path_data,
+  eml.path = path_eml, 
+  dataset.title = "Stem maps of eight 1 ha forest plots distributed around Ann Arbor, MI and around the University of Michigan Biological Station (UMBS)", 
+  temporal.coverage = c("2017-06-01", "2018-07-31"), 
+  maintenance.description = "ongoing", 
+  data.table = "stemmaps.csv", 
+  data.table.name = "Tree Measurements",
+  data.table.description = "Tree species and DBH census for 8 forest plots",
+  other.entity = c("notebooks.zip", "raw.zip", "site_info.pdf", "Ibanez_stemMaps_MichGeoRef_meters.zip"),
+  other.entity.name = c("R Code", "Source", "Site location information", "GIS georeferencing source files"),
+  other.entity.description = c("R scripts for data and metadata cleaning", "Source data for R scripts", "Further information about each site location", "ArcGIS files used to compute X and Y georeferenced coordinates"),
+  user.id = "umbiologicalstat",
+  user.domain = "EDI", 
+  package.id = Pid)
