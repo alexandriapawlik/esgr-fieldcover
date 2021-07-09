@@ -1,0 +1,9 @@
+keyword	keywordThesaurus
+forest ecology	http://vocab.lternet.edu/vocab/vocab/index.php
+ESGR	
+University of Michigan Edwin S. George Reserve	
+community composition	http://vocab.lternet.edu/vocab/vocab/index.php
+vascular plants	http://vocab.lternet.edu/vocab/vocab/index.php
+trees	http://vocab.lternet.edu/vocab/vocab/index.php
+shrubs	http://vocab.lternet.edu/vocab/vocab/index.php
+herbs	http://vocab.lternet.edu/vocab/vocab/index.php

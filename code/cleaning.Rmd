@@ -10,6 +10,7 @@ Packages and file paths
 library(dplyr)
 library(dataMaid)
 library(tidyverse)
+library(lubridate)
 
 dbh_in <- "../raw/Extracted tables - Tree_Shrub DBH.csv"
 sapling_in <- "../raw/Extracted tables - Tree_Shrub Reproduction.csv"
@@ -25,36 +26,70 @@ plots_out <- "../output/plot_summary.csv"
 
 Import data
 ```{r}
-dbh <- read_csv(dbh_in)
-sap <- read_csv(sapling_in)
-cover <- read_csv(field_cover_in)
-plots <- read_csv(plots_in)
+dbh <- read_csv(dbh_in, col_types = 'dcddc')
+sap0 <- read_csv(sapling_in, col_types = 'dcddddddddd')
+cover0 <- read_csv(field_cover_in, col_type = 'dccddd')
+plots <- read_csv(plots_in, col_types='cdccdddcc')
 ```
 
 
 Rename columns
 ```{r}
-
+names(dbh) <- c("Plot_ID", "Species", "Subplot_ID", "DBH", "Status")
+names(plots) <- c("Measurement_Date", "Plot_ID", "Direction_Facing", "Protected_or_Open", "Approximate_Latitude_N", "Approximate_Longitude_W", "Slope_Percent", "Topographic_Position", "Downhill_Compass_Bearing")
+# fix date
+plots$Measurement_Date <- mdy(plots$Measurement_Date)
+# rename for conversion from wide to long
+names(sap0) <- c("Plot_ID", "Species", "1", "2", "3", "4", "5", "6", "7", "8", "9")
+names(cover0) <- c("Plot_ID", "Cover_Type", "Species", "Bottom", "Middle", "Top")
 ```
 
 
 Convert wide to long
 ```{r}
-
+sap <- sap0 %>% 
+  gather(key = "Subplot_ID", value = "Sapling_Count", '1':'9', na.rm = TRUE)
+cover <- cover0 %>% 
+  gather(key = "Subplot_Zone", value = "Centimeters_Diagonal_Cover", 'Bottom':'Top', na.rm = TRUE) %>% 
+  filter(Centimeters_Diagonal_Cover > 0)
 ```
 
 
-Remove empty rows?
+Check species names and other categorical variables
 ```{r}
+# check species for loners
+# identifyLoners(dbh$Species)
+# identifyLoners(cover$Species)
+# identifyLoners(sap$Species)
 
+# convert categoricals to caps
+plots$Protected_or_Open <- toupper(plots$Protected_or_Open)
+cover$Cover_Type <- toupper(cover$Cover_Type)
+cover$Subplot_Zone <- toupper(cover$Subplot_Zone)
+
+# fix dbh entries that are counts instead of measurements
+counts <- dbh %>% 
+  filter(grepl('#', Species)) %>% 
+  uncount(DBH) %>% 
+  mutate(DBH = NA)
+counts$Species[counts$Species == 'Hamamelis virginiana #'] <- 'Hamamelis virginiana'
+dbh <- dbh %>% 
+  filter(!grepl('#', Species))
+dbh <- bind_rows(dbh, counts)
 ```
 
 
 Export
 ```{r}
+dbh <- dbh %>% arrange(Plot_ID, Species, Subplot_ID)
 write.csv(dbh, file = dbh_out, eol = "\r", row.names = FALSE)
+
+sap <- sap %>% arrange(Plot_ID, Species, Subplot_ID)
 write.csv(sap, file = sapling_out, eol = "\r", row.names = FALSE)
+
+cover <- cover %>% arrange(Plot_ID, Cover_Type, Species)
 write.csv(cover, file = field_cover_out, eol = "\r", row.names = FALSE)
+
 write.csv(plots, file = plots_out, eol = "\r", row.names = FALSE)
 ```
 

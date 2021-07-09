@@ -1,0 +1,10 @@
+Raunkiaer's well known system of plant life-form classification shows relationships between relative importance of certain life-form classes and major world climatic zones. Recent investigations have shown that there are also differences in life-form distribution related to climatic variations within the larger "phytoclimates." Several reviews (Adamson 1939; Cain 1950; Cain & Castro 1959) have summarized our understanding of these life-form concepts. 
+
+Relationships between life-forms and microclimate, however, have not been intensively investigated. Cain (1950) suggests that "Although life-form spectra have been employed mostly for general climatic analysis, there are enough studies available to suggest that they may be even more useful for the analysis of climatic variants and microclimates." The limited data available in the literature provide enough evidence that life-form distribution varies with differences in topography and microclimate to warrant further investigation of the subject.
+
+The possible indicator significance of variations in
+community life-form composition also have received little attention. Whittaker (1954) points out that "composition of vegetation in terms of life-forms and growth-forms may indicate position along local gradients." Furthermore, the fact that a plant's life-form represents, in theory, a fundamental adaptation to environment makes community life-form composition of greater potential value than community species composition for use as an indicator of site (microenvironmental) conditions.
+
+This study was an intensive investigation of the vegetation and microclimates of north- and south- facing (henceforth referred to as north and south) slopes on the E. S. George Reserve in southeastern Michigan. The data obtained were used to demonstrate relationships between Raunkiaerian life-forms and microclimate and to illustrate the value of community life-form data as indicators of habitat conditions.
+
+This dataset includes life-form data but not microclimate data.

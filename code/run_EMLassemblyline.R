@@ -9,9 +9,9 @@ library(EMLassemblyline)
 
 # Define paths for your metadata templates, data, and EML
 
-path_templates <- "~/apawlik/esgr-fieldcover/metadata/templates"
-path_data <- "~/apawlik/esgr-fieldcover/output"
-path_eml <- "~/apawlik/esgr-fieldcover/output"
+path_templates <- "metadata/templates"
+path_data <- "output"
+path_eml <- "output"
 
 # Create metadata templates ---------------------------------------------------
 
@@ -40,7 +40,16 @@ EMLassemblyline::template_table_attributes(
 EMLassemblyline::template_categorical_variables(
   path = path_templates, 
   data.path = path_data)
-
+# 
+# # Create geographic coverage (required when more than one geographic location
+# # is to be reported in the metadata).
+# 
+# EMLassemblyline::template_geographic_coverage(
+#   path = path_templates, 
+#   data.path = path_data, 
+#   data.table = "stemmaps.csv", 
+#   site.col = "Site",
+#   empty=TRUE)
 
 # Create taxonomic coverage template (Not-required. Use this to report 
 # taxonomic entities in the metadata)
