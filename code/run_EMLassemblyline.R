@@ -27,6 +27,12 @@ EMLassemblyline::template_core_metadata(
   license = "CCBY",
   write.file = TRUE)
 
+# Data prov
+
+EMLassemblyline::template_provenance(
+  path = path_templates
+)
+
 # Create table attributes template (required when data tables are present)
 
 EMLassemblyline::template_table_attributes(
@@ -71,6 +77,8 @@ EMLassemblyline::template_categorical_variables(
 
 # Once all your metadata templates are complete call this function to create 
 # the EML.
+
+# TODO
 
 Pid <- "edi.832.2"
 Sid <- "edi.218.1"

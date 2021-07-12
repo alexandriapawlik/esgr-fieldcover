@@ -1,0 +1,6 @@
+attributeName	code	definition
+Cover_Type	HERB	Recorded plant species is an herb.
+Cover_Type	WOODY	Recorded plant species is a tree or shrub.
+Subplot_Zone	BOTTOM	Bottom of slope. Includes subplots 1-3.
+Subplot_Zone	MIDDLE	Middle of slope. Includes subplots 4-6.
+Subplot_Zone	TOP	Top of slope. Includes subplots 7-9.

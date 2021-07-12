@@ -1,0 +1,25 @@
+attributeName	code	definition
+Species	Acer rubrum	Common name: red maple
+Species	Amelanchier arborea	Common name: common serviceberry
+Species	Amelanchier laevis	Common name: allegheny serviceberry
+Species	Amelanchier sanguinea	Common name: roundleaf serviceberry
+Species	Carya ovalis	Common name: red hickory
+Species	Carya ovata	Common name: shagbark hickory
+Species	Crataegus spp.	Unknown species of the genus crataegus
+Species	Fraxinus americana	Common name: white ash
+Species	Hamamelis virginiana	Common name: witch hazel
+Species	Juniperus virginiana	Common name: red cedar, red juniper
+Species	Populus grandidentata	Common name: bigtooth aspen
+Species	Prunus americana	Common name: American plum
+Species	Prunus serotina	Common name: black cherry
+Species	Prunus virginiana	Common name: chokecherry
+Species	Quercus alba	Common name: white oak
+Species	Quercus rubra	Common name: northern red oak
+Species	Quercus velutina	Common name: black oak
+Species	Sassafras albidum	Common name: sassafras
+Species	Tilia americana	Common name: basswood
+Species	Ulmus americana	Common name: American elm
+Species	Vaccinium spp.	Unknown species of the genus vaccinium
+Species	Vitis spp.	Unknown species of the genus vitis
+Status	A	Alive
+Status	D	Dead

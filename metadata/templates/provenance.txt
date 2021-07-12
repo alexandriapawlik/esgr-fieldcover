@@ -1,0 +1,2 @@
+dataPackageID	systemID	title	givenName	middleInitial	surName	role	organizationName	email	onlineDescription	url
+		Relationships between Plant Life-Forms and Microclimate in Southeastern Michigan 	Arthur		Cooper	creator	University of Michigan Department of Botany	awcooper1953@gmail.com	Cooper 1961 - thesis for which this dataset was collected	https://doi.org/10.2307/1950745

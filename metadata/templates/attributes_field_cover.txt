@@ -1,0 +1,6 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+Plot_ID	Identifier for the 30m x 30m plot within the Edwin S. George Reserve (1-19, excluding 5).	numeric	dimensionless			
+Cover_Type	Specifies whether the measured species is considered woody or herb. 	categorical				
+Species	Genus and species of measured vascular plant, as determined from both summer and winter observation.	character				
+Subplot_Zone	Specifies which zone of the plot is being measured, where top is the top of the hill in the specified plot.	categorical				
+Centimeters_Diagonal_Cover	Centimeters of cover comprised of the specified species in the specified subplot zone. Coverage was determined in each 100m2 subplot along the central 10m diagonal strip in the subplot, meaning each zone has a total diagonal 30m being measured. See methods for a more complete description.	numeric	centimeter			

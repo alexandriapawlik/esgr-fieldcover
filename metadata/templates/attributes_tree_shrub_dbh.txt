@@ -1,0 +1,6 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+Plot_ID	Identifier for the 30m x 30m plot within the Edwin S. George Reserve (1-19, excluding 5).	numeric	dimensionless			
+Species	Genus and species of measured tree.	categorical				
+Subplot_ID	Specifies which subplot is being measured out of 9 possible 10m x 10m subplots. Subplots are numbered left to right, downhill to uphill.	numeric	dimensionless			
+DBH	The diameter at breast height of all trees over 1 inch dbh.	numeric	inch		NA	Tree was noted but DBH was not recorded.
+Status	Specifies whether the tree was dead or alive when measured.	categorical				

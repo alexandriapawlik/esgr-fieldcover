@@ -1,1 +1,7 @@
 givenName	middleInitial	surName	organizationName	electronicMailAddress	userId	role	projectTitle	fundingAgency	fundingNumber
+Arthur		Cooper	University of Michigan Department of Botany	awcooper1953@gmail.com		creator			
+Jason		Tallant	University of Michigan Biological Station	jtallant@umich.edu	https://orcid.org/0000-0003-4790-8772	Data Manager			
+Alexandria		Pawlik	University of Michigan Biological Station	apawlik@umich.edu	https://orcid.org/0000-0001-7806-8206	Data Curator			
+Arthur		Cooper	University of Michigan Department of Botany	awcooper1953@gmail.com		PI	Relationships between Plant Life-Forms and Microclimate in Southeastern Michigan 	Rackham School of Graduate Studies	
+Arthur		Cooper	University of Michigan Department of Botany	awcooper1953@gmail.com		PI	Relationships between Plant Life-Forms and Microclimate in Southeastern Michigan 	H. H. Bartlett Fund	
+Jason		Tallant	University of Michigan Biological Station	jtallant@umich.edu	https://orcid.org/0000-0003-4790-8772	contact			

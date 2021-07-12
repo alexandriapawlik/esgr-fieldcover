@@ -1,0 +1,10 @@
+attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCode	missingValueCodeExplanation
+Measurement_Date	Date that all measurements for the specified plot were collected.	Date		YYYY-MM-DD		
+Plot_ID	Identifier for the 30m x 30m plot within the Edwin S. George Reserve (1-19, excluding 5).	numeric	dimensionless			
+Direction_Facing	Cardinal direction of downhill on the plot.	categorical				
+Protected_or_Open	Presence or absence of plot protection as afforded by a facing slope within 500 ft.	categorical			NA	Plot protection unknown.
+Approximate_Latitude_N	Approximate latitude of plot, estimated based on drawn map provided by Art Cooper.	numeric	degree		NA	Plot location unknown.
+Approximate_Longitude_W	Approximate longitude of plot, estimated based on drawn map provided by Art Cooper.	numeric	degree		NA	Plot location unknown.
+Slope_Percent	Slope of plot as a percent of full-vertical, i.e. 0% means horizontal and 100% means vertical.	numeric	percent		NA	Plot slope unknown.
+Topographic_Position	Position of plot with respect to the Edwin S. George Reserve topography.	character			NA	Plot location unknown.
+Downhill_Compass_Bearing	Exact quadrant bearing of downhill on plot.	character			NA	Exact compass bearing unknown.

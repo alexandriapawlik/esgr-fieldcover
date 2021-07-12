@@ -1,0 +1,7 @@
+attributeName	code	definition
+Direction_Facing	E	East
+Direction_Facing	N	North
+Direction_Facing	S	South
+Direction_Facing	W	West
+Protected_or_Open	O	Open
+Protected_or_Open	P	Protected
