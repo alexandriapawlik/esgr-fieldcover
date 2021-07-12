@@ -78,24 +78,28 @@ EMLassemblyline::template_categorical_variables(
 # Once all your metadata templates are complete call this function to create 
 # the EML.
 
-# TODO
 
 Pid <- "edi.832.2"
-Sid <- "edi.218.1"
+Sid <- "edi.367.1"
 
 EMLassemblyline::make_eml(
   path = path_templates,
   data.path = path_data,
   eml.path = path_eml, 
-  dataset.title = "Stem maps of eight 1 ha forest plots distributed around Ann Arbor, MI and around the University of Michigan Biological Station (UMBS)", 
-  temporal.coverage = c("2017-06-01", "2018-07-31"), 
-  maintenance.description = "ongoing", 
-  data.table = "stemmaps.csv", 
-  data.table.name = "Tree Measurements",
-  data.table.description = "Tree species and DBH census for 8 forest plots",
-  other.entity = c("notebooks.zip", "raw.zip", "site_info.pdf", "Ibanez_stemMaps_MichGeoRef_meters.zip"),
-  other.entity.name = c("R Code", "Source", "Site location information", "GIS georeferencing source files"),
-  other.entity.description = c("R scripts for data and metadata cleaning", "Source data for R scripts", "Further information about each site location", "ArcGIS files used to compute X and Y georeferenced coordinates"),
+  dataset.title = "Field cover at the Edwin S. George Reserve, Southeastern Michigan in 1957", 
+  temporal.coverage = c("1957-08-26", "1957-09-07"), 
+  geographic.description = "University of Michigan Edwin S. George Reserve in Pinckney, Michigan",
+  geographic.coordinates = c('42.46', '-84.00', '42.46', '-84.00'),
+  maintenance.description = "complete", 
+  data.table = c("field_cover.csv", "plot_summary.csv", "tree_shrub_dbh.csv", "tree_shrub_reproduction.csv"), 
+  data.table.name = c("Field Cover Density", "Plot Summary", "Tree and Shrub DBH Measurements", "Tree and Shrub Reproduction Counts"),
+  data.table.description = c("Density of herbs, trees, and shrubs in horizontal regions of sloped plots", 
+                             "Plot numbers and key plot properties",
+                             "DBH measurements and status for trees and shrubs in each plot",
+                             "Reproduction counts for trees and shrubs in each plot"),
+  other.entity = c("code.zip", "raw.zip"),
+  other.entity.name = c("R Code", "Source"),
+  other.entity.description = c("R scripts for data and metadata cleaning", "Source data for R scripts"),
   user.id = "umbiologicalstat",
   user.domain = "EDI", 
-  package.id = Pid)
+  package.id = Sid)

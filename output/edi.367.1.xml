@@ -1,0 +1,832 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml xmlns:eml="https://eml.ecoinformatics.org/eml-2.2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.2" packageId="edi.367.1" xsi:schemaLocation="https://eml.ecoinformatics.org/eml-2.2.0/ eml.xsd" system="edi">
+  <access authSystem="https://pasta.edirepository.org/authentication" order="allowFirst" scope="document">
+    <allow>
+      <principal>uid=umbiologicalstat,o=EDI,dc=edirepository,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <title>Field cover at the Edwin S. George Reserve, Southeastern Michigan in 1957</title>
+    <creator>
+      <individualName>
+        <givenName>Arthur</givenName>
+        <surName>Cooper</surName>
+      </individualName>
+      <organizationName>University of Michigan Department of Botany</organizationName>
+      <electronicMailAddress>awcooper1953@gmail.com</electronicMailAddress>
+    </creator>
+    <associatedParty>
+      <individualName>
+        <givenName>Jason</givenName>
+        <surName>Tallant</surName>
+      </individualName>
+      <organizationName>University of Michigan Biological Station</organizationName>
+      <electronicMailAddress>jtallant@umich.edu</electronicMailAddress>
+      <role>Data Manager</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Alexandria</givenName>
+        <surName>Pawlik</surName>
+      </individualName>
+      <organizationName>University of Michigan Biological Station</organizationName>
+      <electronicMailAddress>apawlik@umich.edu</electronicMailAddress>
+      <role>Data Curator</role>
+    </associatedParty>
+    <pubDate>2021-07-12</pubDate>
+    <abstract>
+      <para>Raunkiaer's well known system of plant life-form classification shows relationships between relative importance of certain life-form classes and major world climatic zones. Recent investigations have shown that there are also differences in life-form distribution related to climatic variations within the larger "phytoclimates." Several reviews (Adamson 1939; Cain 1950; Cain &amp; Castro 1959) have summarized our understanding of these life-form concepts. </para>
+      <para>Relationships between life-forms and microclimate, however, have not been intensively investigated. Cain (1950) suggests that "Although life-form spectra have been employed mostly for general climatic analysis, there are enough studies available to suggest that they may be even more useful for the analysis of climatic variants and microclimates." The limited data available in the literature provide enough evidence that life-form distribution varies with differences in topography and microclimate to warrant further investigation of the subject.</para>
+      <para>The possible indicator significance of variations in community life-form composition also have received little attention. Whittaker (1954) points out that "composition of vegetation in terms of life-forms and growth-forms may indicate position along local gradients." Furthermore, the fact that a plant's life-form represents, in theory, a fundamental adaptation to environment makes community life-form composition of greater potential value than community species composition for use as an indicator of site (microenvironmental) conditions.</para>
+      <para>This study was an intensive investigation of the vegetation and microclimates of north- and south- facing (henceforth referred to as north and south) slopes on the E. S. George Reserve in southeastern Michigan. The data obtained were used to demonstrate relationships between Raunkiaerian life-forms and microclimate and to illustrate the value of community life-form data as indicators of habitat conditions.</para>
+      <para>The metadata for this dataset are taken from Cooper et. al 1961 ("Relationships Between Plant Life-Forms and Microclimate", https://doi.org/10.2307/1950745). This dataset includes the life-form data but not microclimate data. </para>
+    </abstract>
+    <keywordSet>
+      <keyword>forest ecology</keyword>
+      <keyword>community composition</keyword>
+      <keyword>vascular plants</keyword>
+      <keyword>trees</keyword>
+      <keyword>shrubs</keyword>
+      <keyword>herbs</keyword>
+      <keywordThesaurus>http://vocab.lternet.edu/vocab/vocab/index.php</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>ESGR</keyword>
+      <keyword>University of Michigan Edwin S. George Reserve</keyword>
+    </keywordSet>
+    <additionalInfo>
+      <para>The author is indebted for financial assistance to the Rackham School of Graduate Studies and to the H. H. Bartlett Fund, both of the University of Michigan. The Department of Meteorology assisted with the microclimatic instrumentation and the School of Natural Resources permitted use of their soils laboratory. Dr. Rogers MeVaugh, University of Michigan, assisted with identification of unknown plants and Dr. Irving J. Cantrall, Curator of the E. S. George Reserve, provided information on the history of the Reserve and made available its numerous facilities. Special thanks are due Dr. Stanley A. Cain and Dr. William S. Benninghoff for their assistance and guidance.</para>
+    </additionalInfo>
+    <intellectualRights>
+      <para>This information is released under the Creative Commons license - Attribution - CC BY (https://creativecommons.org/licenses/by/4.0/). The consumer of these data ("Data User" herein) is required to cite it appropriately in any publication that results from its use. The Data User should realize that these data may be actively used by others for ongoing research and that coordination may be necessary to prevent duplicate publication. The Data User is urged to contact the authors of these data if any questions about methodology or results occur. Where appropriate, the Data User is encouraged to consider collaboration or co-authorship with the authors. The Data User should realize that misinterpretation of data may occur if used out of context of the original study. While substantial efforts are made to ensure the accuracy of data and associated documentation, complete accuracy of data sets cannot be guaranteed. All data are made available "as is." The Data User should be aware, however, that data are updated periodically and it is the responsibility of the Data User to check for new versions of the data. The data authors and the repository where these data were obtained shall not be liable for damages resulting from any use or misinterpretation of the data. Thank you.
+</para>
+    </intellectualRights>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>University of Michigan Edwin S. George Reserve in Pinckney, Michigan</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-84.00</westBoundingCoordinate>
+          <eastBoundingCoordinate>-84.00</eastBoundingCoordinate>
+          <northBoundingCoordinate>42.46</northBoundingCoordinate>
+          <southBoundingCoordinate>42.46</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>1957-08-26</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>1957-09-07</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <maintenance>
+      <description>complete</description>
+    </maintenance>
+    <contact>
+      <individualName>
+        <givenName>Jason</givenName>
+        <surName>Tallant</surName>
+      </individualName>
+      <organizationName>University of Michigan Biological Station</organizationName>
+      <electronicMailAddress>jtallant@umich.edu</electronicMailAddress>
+    </contact>
+    <methods>
+      <methodStep>
+        <description>
+          <para>North- and south-facing slopes were chosen as sites for this study because of the great environmental and vegetational differences shown for such slopes in other studies (Potzger 1939, Shanks &amp; Norris 1950, Cantlon 1953). Microenvironmental and vegetational sampling was carried out from March 17 to November 3, 1957. Data were obtained from 17 slopes, 9 north-facing and 8 south-facing. Slopes ranged from 31-60% in angle and deviated not more than 20 degrees from true north or true south. Vegetation was sampled on 16 of these slopes, but microenvironmental data were recorded for only 4 north and 4 south slopes.</para>
+          <para>Although efforts were made to minimize all variables with the exception of topographic orientation, they were not entirely successful. In addition to orientation, an important variable was the presence or absence of protection as afforded by a facing slope. Thus, 4 groups of slopes were available: protected north slopes, open north slopes, protected south slopes, and open south slopes. The following data summarize the specific topographic characteristics of the sample sites:</para>
+          <para>Protected north slopes (Stations 1, 5, 6, 10, 16). Station 1 was on the side of an esker facing into a kettle whereas Stations 5, 6, 10, and 16 were on the sides of kettles. Contours at all stations were concave.</para>
+          <para>Open north slopes (Stations 8, 11, 13, 15). Station 8 was on the side of a large kettle but, as the opposite side was over 500 ft distant, the facing slope offered no protection. Stations 11 and 15 were on the edge of an outwash fan and Station 13 was on the side of an esker. Contours at Stations 8 and 11 were concave and those at Station 13 were straight. Contours at Station 15 were slightly convex.</para>
+          <para>Protected south slopes (Stations 7, 14). Both of these stations were on the sides of kettles with concave contours.</para>
+          <para>Open south slopes (Stations 2, 3, 4, 9, 12, 17). These stations were all on the sides of eskers. Stations 2 and 12 actually faced into a large kettle but, as the opposite slope was approximately 500 ft distant, there was no real protection. Contours at Stations 2, 3, and 12 were essentially straight. At Stations 4 and 9 contours were slightly convex whereas at Station 17 contours were somewhat concave.</para>
+          <para>Although no historical data were available for the sample sites, it appeared that there had been no selective effects of grazing or lumbering on any slope or group of slopes. Thus, it was assumed that the microclimatic and vegetational differences recorded were the results of real habitat differences rather than the past cultural practices of man.</para>
+          <para>Vegetational sampling was carried out during July and August of 1957. On each of the 16 slopes sampled a plot 900 m2, consisting of three tiers of three 100 m2 plots, was laid out. Subplots with IDs 1-3 are in the bottom tier, 4-6 in the middle tier, and 7-9 in the top tier. Presence of all vascular plant species occurring in each subplot was recorded. Coverage of species in the field layer (within 4.5 feet of the ground) was determined by the line-intercept method. As plots were laid out on the horizontal and plant cover was recorded on the horizontal by means of two meter sticks arranged so that one was placed perpendicular to the horizontal and the other moved up or down along it until it was horizontal. The central 10 m of both diagonals of each of the subplots were measured with this device. Thus, 180 m of line-intercept data were available for each slope sample plot. The diameter at breast height of all trees over 1 inch d.b.h. and density of all shrubs and transgressives below 1 inch d.b.h. and over 4.5 ft high were determined in each subplot. In addition, the total canopy cover of species over 1 inch d.b.h. was determined by pacing the four 30 m across-slope boundaries of the 3 tiers of subplots. The life-form of all species encountered was determined from winter and summer field observation during a part of 1956 and all of 1957 and by consulting other life-form studies of similar areas (Ennis 1928, McDonald 1937). Voucher specimens of all species are deposited either in the Reserve herbarium or in the author's collection. Nomenclature is that of Fernald (1950). Representative leaves were chosen from the voucher specimens and their areas determined both by tracings on millimeter graph paper and by the 2/3 length times width rule of Cain et al. (1956). The entire species list, showing both lifeforms and leaf-size, may be found in Cooper (1958).</para>
+          <para/>
+          <para>
+</para>
+        </description>
+      </methodStep>
+      <methodStep>
+        <description>This provenance metadata does not contain entity specific information.</description>
+        <dataSource>
+          <title>Relationships between Plant Life-Forms and Microclimate in Southeastern Michigan</title>
+          <creator>
+            <individualName>
+              <givenName>Arthur</givenName>
+              <surName>Cooper</surName>
+            </individualName>
+            <organizationName>University of Michigan Department of Botany</organizationName>
+            <electronicMailAddress>awcooper1953@gmail.com</electronicMailAddress>
+          </creator>
+          <distribution>
+            <online>
+              <onlineDescription>Cooper 1961 - thesis for which this dataset was collected</onlineDescription>
+              <url>https://doi.org/10.2307/1950745</url>
+            </online>
+          </distribution>
+          <contact>
+            <individualName>
+              <givenName>Arthur</givenName>
+              <surName>Cooper</surName>
+            </individualName>
+            <organizationName>University of Michigan Department of Botany</organizationName>
+            <electronicMailAddress>awcooper1953@gmail.com</electronicMailAddress>
+          </contact>
+        </dataSource>
+      </methodStep>
+    </methods>
+    <project>
+      <title>Relationships between Plant Life-Forms and Microclimate in Southeastern Michigan</title>
+      <personnel>
+        <individualName>
+          <givenName>Arthur</givenName>
+          <surName>Cooper</surName>
+        </individualName>
+        <organizationName>University of Michigan Department of Botany</organizationName>
+        <electronicMailAddress>awcooper1953@gmail.com</electronicMailAddress>
+        <role>Principal Investigator</role>
+      </personnel>
+      <funding>Rackham School of Graduate Studies</funding>
+      <relatedProject>
+        <title>Relationships between Plant Life-Forms and Microclimate in Southeastern Michigan</title>
+        <personnel>
+          <individualName>
+            <givenName>Arthur</givenName>
+            <surName>Cooper</surName>
+          </individualName>
+          <organizationName>University of Michigan Department of Botany</organizationName>
+          <electronicMailAddress>awcooper1953@gmail.com</electronicMailAddress>
+          <role>Principal Investigator</role>
+        </personnel>
+        <funding>H. H. Bartlett Fund</funding>
+      </relatedProject>
+    </project>
+    <dataTable>
+      <entityName>Field Cover Density</entityName>
+      <entityDescription>Density of herbs, trees, and shrubs in horizontal regions of sloped plots</entityDescription>
+      <physical>
+        <objectName>field_cover.csv</objectName>
+        <size unit="bytes">114803</size>
+        <authentication method="MD5">7e0cfc47a21796422717deee880d742c</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>Plot_ID</attributeName>
+          <attributeDefinition>Identifier for the 30m x 30m plot within the Edwin S. George Reserve (1-19, excluding 5).</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">1</minimum>
+                  <maximum exclusive="false">19</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Cover_Type</attributeName>
+          <attributeDefinition>Specifies whether the measured species is considered woody or herb.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>HERB</code>
+                    <definition>Recorded plant species is an herb.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WOODY</code>
+                    <definition>Recorded plant species is a tree or shrub.</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Species</attributeName>
+          <attributeDefinition>Genus and species of measured vascular plant, as determined from both summer and winter observation.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Genus and species of measured vascular plant, as determined from both summer and winter observation.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Subplot_Zone</attributeName>
+          <attributeDefinition>Specifies which zone of the plot is being measured, where top is the top of the hill in the specified plot.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>BOTTOM</code>
+                    <definition>Bottom of slope. Includes subplots 1-3.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>MIDDLE</code>
+                    <definition>Middle of slope. Includes subplots 4-6.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TOP</code>
+                    <definition>Top of slope. Includes subplots 7-9.</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Centimeters_Diagonal_Cover</attributeName>
+          <attributeDefinition>Centimeters of cover comprised of the specified species in the specified subplot zone. Coverage was determined in each 100m2 subplot along the central 10m diagonal strip in the subplot, meaning each zone has a total diagonal 30m being measured. See methods for a more complete description.</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>centimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">1</minimum>
+                  <maximum exclusive="false">2189</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>2838</numberOfRecords>
+    </dataTable>
+    <dataTable>
+      <entityName>Plot Summary</entityName>
+      <entityDescription>Plot numbers and key plot properties</entityDescription>
+      <physical>
+        <objectName>plot_summary.csv</objectName>
+        <size unit="bytes">1333</size>
+        <authentication method="MD5">51fb70eccaaf773724658a74713318f8</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>Measurement_Date</attributeName>
+          <attributeDefinition>Date that all measurements for the specified plot were collected.</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+              <dateTimeDomain/>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Plot_ID</attributeName>
+          <attributeDefinition>Identifier for the 30m x 30m plot within the Edwin S. George Reserve (1-19, excluding 5).</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">1</minimum>
+                  <maximum exclusive="false">19</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Direction_Facing</attributeName>
+          <attributeDefinition>Cardinal direction of downhill on the plot.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>E</code>
+                    <definition>East</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>N</code>
+                    <definition>North</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>S</code>
+                    <definition>South</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>W</code>
+                    <definition>West</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Protected_or_Open</attributeName>
+          <attributeDefinition>Presence or absence of plot protection as afforded by a facing slope within 500 ft.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>O</code>
+                    <definition>Open</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>P</code>
+                    <definition>Protected</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>Plot protection unknown.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Approximate_Latitude_N</attributeName>
+          <attributeDefinition>Approximate latitude of plot, estimated based on drawn map provided by Art Cooper.</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>degree</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">42.4578</minimum>
+                  <maximum exclusive="false">42.4646</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>Plot location unknown.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Approximate_Longitude_W</attributeName>
+          <attributeDefinition>Approximate longitude of plot, estimated based on drawn map provided by Art Cooper.</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>degree</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-84.0146</minimum>
+                  <maximum exclusive="false">-83.9993</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>Plot location unknown.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Slope_Percent</attributeName>
+          <attributeDefinition>Slope of plot as a percent of full-vertical, i.e. 0% means horizontal and 100% means vertical.</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>percent</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">31</minimum>
+                  <maximum exclusive="false">60</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>Plot slope unknown.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Topographic_Position</attributeName>
+          <attributeDefinition>Position of plot with respect to the Edwin S. George Reserve topography.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Position of plot with respect to the Edwin S. George Reserve topography.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>Plot location unknown.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Downhill_Compass_Bearing</attributeName>
+          <attributeDefinition>Exact quadrant bearing of downhill on plot.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Exact quadrant bearing of downhill on plot.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>Exact compass bearing unknown.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>18</numberOfRecords>
+    </dataTable>
+    <dataTable>
+      <entityName>Tree and Shrub DBH Measurements</entityName>
+      <entityDescription>DBH measurements and status for trees and shrubs in each plot</entityDescription>
+      <physical>
+        <objectName>tree_shrub_dbh.csv</objectName>
+        <size unit="bytes">51937</size>
+        <authentication method="MD5">c9e1cefc1a5f53a51d2e55e331ddd61d</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>Plot_ID</attributeName>
+          <attributeDefinition>Identifier for the 30m x 30m plot within the Edwin S. George Reserve (1-19, excluding 5).</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">1</minimum>
+                  <maximum exclusive="false">19</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Species</attributeName>
+          <attributeDefinition>Genus and species of measured tree.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>Acer rubrum</code>
+                    <definition>Common name: red maple</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Amelanchier arborea</code>
+                    <definition>Common name: common serviceberry</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Amelanchier laevis</code>
+                    <definition>Common name: allegheny serviceberry</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Amelanchier sanguinea</code>
+                    <definition>Common name: roundleaf serviceberry</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Carya ovalis</code>
+                    <definition>Common name: red hickory</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Carya ovata</code>
+                    <definition>Common name: shagbark hickory</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Crataegus spp.</code>
+                    <definition>Unknown species of the genus crataegus</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Fraxinus americana</code>
+                    <definition>Common name: white ash</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Hamamelis virginiana</code>
+                    <definition>Common name: witch hazel</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Juniperus virginiana</code>
+                    <definition>Common name: red cedar, red juniper</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Populus grandidentata</code>
+                    <definition>Common name: bigtooth aspen</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Prunus americana</code>
+                    <definition>Common name: American plum</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Prunus serotina</code>
+                    <definition>Common name: black cherry</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Prunus virginiana</code>
+                    <definition>Common name: chokecherry</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Quercus alba</code>
+                    <definition>Common name: white oak</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Quercus rubra</code>
+                    <definition>Common name: northern red oak</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Quercus velutina</code>
+                    <definition>Common name: black oak</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Sassafras albidum</code>
+                    <definition>Common name: sassafras</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Tilia americana</code>
+                    <definition>Common name: basswood</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Ulmus americana</code>
+                    <definition>Common name: American elm</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Vaccinium spp.</code>
+                    <definition>Unknown species of the genus vaccinium</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Vitis spp.</code>
+                    <definition>Unknown species of the genus vitis</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Subplot_ID</attributeName>
+          <attributeDefinition>Specifies which subplot is being measured out of 9 possible 10m x 10m subplots. Subplots are numbered left to right, downhill to uphill.</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">1</minimum>
+                  <maximum exclusive="false">9</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>DBH</attributeName>
+          <attributeDefinition>The diameter at breast height of all trees over 1 inch dbh.</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>inch</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.1</minimum>
+                  <maximum exclusive="false">29</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>Tree was noted but DBH was not recorded.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Status</attributeName>
+          <attributeDefinition>Specifies whether the tree was dead or alive when measured.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>A</code>
+                    <definition>Alive</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>D</code>
+                    <definition>Dead</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>1738</numberOfRecords>
+    </dataTable>
+    <dataTable>
+      <entityName>Tree and Shrub Reproduction Counts</entityName>
+      <entityDescription>Reproduction counts for trees and shrubs in each plot</entityDescription>
+      <physical>
+        <objectName>tree_shrub_reproduction.csv</objectName>
+        <size unit="bytes">6514</size>
+        <authentication method="MD5">577e72e484434e9a46e7dc0f5de74f45</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>Plot_ID</attributeName>
+          <attributeDefinition>Identifier for the 30m x 30m plot within the Edwin S. George Reserve (1-19, excluding 5).</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">1</minimum>
+                  <maximum exclusive="false">19</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Species</attributeName>
+          <attributeDefinition>Genus and species of measured vascular plant, as determined from both summer and winter observation.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Genus and species of measured vascular plant, as determined from both summer and winter observation.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Subplot_ID</attributeName>
+          <attributeDefinition>Specifies which subplot is being measured out of 9 possible 10m x 10m subplots. Subplots are numbered left to right, downhill to uphill.</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">1</minimum>
+                  <maximum exclusive="false">9</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Reproduction_Count</attributeName>
+          <attributeDefinition>Number of saplings of the specified species observed in the subplot. All shrubs and trees below 1 inch dbh and over 4.5 ft high were recorded.</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">1</minimum>
+                  <maximum exclusive="false">101</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>249</numberOfRecords>
+    </dataTable>
+    <otherEntity>
+      <entityName>R Code</entityName>
+      <entityDescription>R scripts for data and metadata cleaning</entityDescription>
+      <physical>
+        <objectName>code.zip</objectName>
+        <size unit="bytes">3698</size>
+        <authentication method="MD5">d167799a9de3699987ef63e203fcea1b</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>application/zip</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+      </physical>
+      <entityType>unknown</entityType>
+    </otherEntity>
+    <otherEntity>
+      <entityName>Source</entityName>
+      <entityDescription>Source data for R scripts</entityDescription>
+      <physical>
+        <objectName>raw.zip</objectName>
+        <size unit="bytes">446133</size>
+        <authentication method="MD5">10a9d009a61a7f1f236dee2dcf7d9ba2</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>application/zip</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+      </physical>
+      <entityType>unknown</entityType>
+    </otherEntity>
+  </dataset>
+</eml:eml>

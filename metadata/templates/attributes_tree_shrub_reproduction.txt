@@ -2,4 +2,4 @@ attributeName	attributeDefinition	class	unit	dateTimeFormatString	missingValueCo
 Plot_ID	Identifier for the 30m x 30m plot within the Edwin S. George Reserve (1-19, excluding 5).	numeric	dimensionless			
 Species	Genus and species of measured vascular plant, as determined from both summer and winter observation.	character				
 Subplot_ID	Specifies which subplot is being measured out of 9 possible 10m x 10m subplots. Subplots are numbered left to right, downhill to uphill.	numeric	dimensionless			
-Sapling_Count	Number of saplings of the specified species observed in the subplot. Density of all shrubs and trees below 1 inch dbh and over 4.5 ft high was recorded.	numeric	dimensionless			
+Reproduction_Count	Number of saplings of the specified species observed in the subplot. All shrubs and trees below 1 inch dbh and over 4.5 ft high were recorded.	numeric	dimensionless			
