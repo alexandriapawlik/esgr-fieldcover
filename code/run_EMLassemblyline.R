@@ -79,7 +79,7 @@ EMLassemblyline::template_categorical_variables(
 # the EML.
 
 
-Pid <- "edi.832.2"
+Pid <- "edi.933.1"
 Sid <- "edi.367.1"
 
 EMLassemblyline::make_eml(
@@ -97,9 +97,9 @@ EMLassemblyline::make_eml(
                              "Plot numbers and key plot properties",
                              "DBH measurements and status for trees and shrubs in each plot",
                              "Reproduction counts for trees and shrubs in each plot"),
-  other.entity = c("code.zip", "raw.zip"),
-  other.entity.name = c("R Code", "Source"),
-  other.entity.description = c("R scripts for data and metadata cleaning", "Source data for R scripts"),
+  other.entity = c("code.zip", "raw.zip", "photos.zip", "README.md"),
+  other.entity.name = c("R Code", "Source", "Plot Photos", "Read Me"),
+  other.entity.description = c("R scripts for data and metadata cleaning", "Source data for R scripts", "Pictures taken of plots by Arthur Cooper in 1957", "Readme file describing data curation process and versions"),
   user.id = "umbiologicalstat",
   user.domain = "EDI", 
-  package.id = Sid)
+  package.id = Pid)

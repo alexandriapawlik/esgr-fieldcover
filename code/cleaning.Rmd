@@ -45,11 +45,13 @@ names(cover0) <- c("Plot_ID", "Cover_Type", "Species", "Bottom", "Middle", "Top"
 ```
 
 
-Convert wide to long
+Reformat cover and sap
 ```{r}
+# convert to long format and remove empty rows
 sap <- sap0 %>% 
   gather(key = "Subplot_ID", value = "Reproduction_Count", '1':'9', na.rm = TRUE) %>% 
   mutate(Subplot_ID = as.integer(Subplot_ID))
+
 cover <- cover0 %>% 
   gather(key = "Subplot_Zone", value = "Centimeters_Diagonal_Cover", 'Bottom':'Top', na.rm = TRUE) %>% 
   filter(Centimeters_Diagonal_Cover > 0)
