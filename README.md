@@ -1,5 +1,5 @@
 # ESGR Field Cover data (Art Cooper)
-Repository Link: [GitHub](www.github.com/alexandriapawlik/esgr-fieldcover)
+Repository Link: [GitHub](www.github.com/alexandriapawlik/esgr-fieldcover)   
 Data Source: [Relationships Between Plant Life-Forms and Microclimate, Cooper 1961](https://doi.org/10.2307/1950745)
 
 
